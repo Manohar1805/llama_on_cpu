@@ -27,4 +27,4 @@ llm = CTransformers(model='model/llama-2-7b-chat.ggmlv3.q4_0.bin',
 
 LLM_Chain=LLMChain(prompt=prompt, llm=llm)
 
-print(LLM_Chain.run("Harry Potter"))
+print(LLM_Chain.run("where are you?"))
